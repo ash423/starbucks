@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+a{text-decoration: none;}
+/* nav */
+
+nav{
+    box-shadow: 0 1px 3px rgb(0 0 0/10%),0 2px 2px rgb(0 0 0/6%),0 0 2px rgba(0 0 0/7%);
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+}
+.nav-left{
+    display: flex;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+}
+.nav-left ul li {
+    margin-left:20px ;
+}
+.nav-left ul li a{
+    text-decoration: uppercase;
+    color: #181A18;
+}
+.nav-left ul li a:hover{
+    color:#00754a;
+
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-right .location{
+    display:flex;
+    align-items: center;
+    margin-right:40px;
+    cursor: pointer;
+}
+
+.nav-right .location:hover{
+    color:#00754a;
+   
+   
+}
+.nav-right .location span{
+    margin-left:10px;
+}
+
+.location img{
+    height: 20px;
+   
+}
+
+
+.nav-right button{
+    margin-left: 20px;
+}
+.btn{
+    padding: 6.4px 16px;
+    background-color: transparent ;
+    border:none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 40px;
+}
+.btn-primary{
+    border: 1px solid rgba(0,0,0,0.87);
+}
+.btn-primary:hover{
+    background-color: rgba(0,0,0,0.06);
+}
+.btn-secondary{
+    background-color: #181a18;
+    color:#fff;
+}
+.btn-secondary:hover{
+    background-color: rgba(0,0,0,0.7);
+    border-color: rgba(0,0,0,0.7);
+
+}
+/*----main content----*/
+.box{
+    margin-top: 32px;
+}
+.box .container{
+    display: flex;
+}
+.box-text{
+    width:50%;
+    padding:32px 80px;
+    background-color: #1e3932;
+    color:#fff;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-text h1{
+    font-size: 50px;
+}
+.box-text p{
+    margin-top: 60;
+    margin-bottom: 32px;
+    font-size: 24px;
+}
+.box-img{
+    width:50%;
+}
+.box-img img{
+    height:100%;
+    width:100%;
+}
+.lg{
+    font-size: 36px !important;
+}
+.p-lg{
+    font-size: 16px !important;
+}
+.mt-0{
+    margin-top: 0 !important;
+}
+.box-secondary .container{
+    flex-direction: row-reverse;
+}
+.mb-1{
+    margin-bottom: 32px;
+}
+.box-light{
+    background-color: #d4e9e2;
+    color: #181a18;
+}
+.box-light h1{
+    font-weight: normal;
+}
+.btn-white{
+    border-color: #fff;
+    color:#fff;
+}
+/* -------------footer------------ */
+
+footer {
+    padding: 24px 0;
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%),
+      0 0 2px rgb(0 0 0 / 7%);
+  }
+  
+  .footer-container {
+    padding: 0 40px;
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  .footer-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-container ul li {
+    color: rgba(0, 0, 0, 0.56);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+  }
+  
+  .footer-container ul li:hover {
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .links-container {
+    width: 190px;
+    margin-right: 70px;
+  }
+  
+  footer h3 {
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+  
+  .footer-below {
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .social {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .social-icon {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+    height:10px;
+    cursor:pointer;
+  }
+  
+  .policy {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .po {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .policy a:hover {
+    text-decoration: underline;
+  }
+  
+  .final {
+    font-size: small;
+    color: #acacac;
+  }
+  .fa-spotify{
+   margin-top:60px ;
+   margin-bottom: 20px;
+  } 
+.fa-facebook{
+    margin-left: 0px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
